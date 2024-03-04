@@ -77,7 +77,7 @@ app.get('/metrics', async (req, res) => {
 // Start the server
 const port = 3003;
 app.listen(port, () => {
-  console.log(`Energy_meter exporter listening at http://localhost:${port}`);
+  console.log(`Energy meter exporter listening at http://localhost:${port}`);
 });
 
 
